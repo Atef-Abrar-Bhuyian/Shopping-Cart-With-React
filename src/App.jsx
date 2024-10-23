@@ -13,6 +13,10 @@ function App() {
     setPrice(price+pr);
   }
 
+  const handleDecreasePrice = (pr) =>{
+    setPrice(price-pr);
+  }
+
   const handleCartsContainer = (product, id) => {
     const isExists = carts.find((p) => p.id == id);
 
@@ -27,6 +31,12 @@ function App() {
 
   }
 
+  const handleCartRemove = (id,price) =>{
+    const newCart = carts.filter((p) => p.id !== id);
+    setCarts(newCart);
+    handleDecreasePrice(price)
+  }
+
   return (
     <>
       
@@ -35,7 +45,7 @@ function App() {
 
         <Allproducts handleCartsContainer={handleCartsContainer} ></Allproducts>
 
-        <CartContainer carts={carts}></CartContainer>
+        <CartContainer handleCartRemove={handleCartRemove} carts={carts}></CartContainer>
       </div>
     </>
   )
