@@ -10,11 +10,15 @@ function App() {
   const [price, setPrice] = useState(0);
 
   const handleIncreasePrice = (pr) =>{
-    setPrice(price+pr);
+    const updatedPriceAfterAdd = (price+pr).toFixed(2);
+    const priceNumber = parseFloat(updatedPriceAfterAdd);
+    setPrice(priceNumber);
   }
 
   const handleDecreasePrice = (pr) =>{
-    setPrice(price-pr);
+    const updatedPriceAfterRemove= (price-pr).toFixed(2);
+    const priceInNumber = parseFloat(updatedPriceAfterRemove)
+    setPrice(priceInNumber);
   }
 
   const handleCartsContainer = (product, id) => {

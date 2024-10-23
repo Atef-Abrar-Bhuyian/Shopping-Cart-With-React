@@ -1,5 +1,6 @@
 import { FaSearch,FaCartPlus   } from 'react-icons/fa';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+
 const Header = ({carts, price}) => {
     return (
         <div className='w-11/12 mx-auto flex items-center justify-between mt-4'>

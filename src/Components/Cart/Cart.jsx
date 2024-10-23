@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types'
 import { MdCancel } from "react-icons/md";
-
+import PropTypes from 'prop-types';
 
 const Cart = ({cart, handleCartRemove}) => {
+    
     const {id, name, price}= cart;
     return (
         <div className='flex justify-between items-center space-y-6'>
@@ -14,7 +14,7 @@ const Cart = ({cart, handleCartRemove}) => {
 };
 
 Cart.propTypes ={
-    carts: PropTypes.array,
+    cart: PropTypes.object,
     handleCartRemove: PropTypes.func
 }
 export default Cart;

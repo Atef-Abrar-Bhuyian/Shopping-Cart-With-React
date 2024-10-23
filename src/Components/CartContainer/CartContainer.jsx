@@ -7,7 +7,7 @@ const CartContainer = ({carts, handleCartRemove}) => {
             <h3 className='text-xl mb-4'><span className='font-bold'>Total Carts</span>: {carts.length} </h3>
 
             {
-                carts.map(cart => <Cart key={cart.id} handleCartRemove={handleCartRemove} cart={cart}></Cart>)
+                carts.map((cart, idx) => <Cart key={idx} handleCartRemove={handleCartRemove} cart={cart}></Cart>)
             }
         </div>
     );
@@ -15,6 +15,7 @@ const CartContainer = ({carts, handleCartRemove}) => {
 
 CartContainer.propTypes ={
     carts: PropTypes.array,
+    handleCartRemove: PropTypes.func
 }
 
 
