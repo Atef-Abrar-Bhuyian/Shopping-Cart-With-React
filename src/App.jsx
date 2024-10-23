@@ -1,4 +1,7 @@
 import './App.css'
+import Allproducts from './Components/Allproducts/Allproducts'
+import CartContainer from './Components/CartContainer/CartContainer'
+import Header from './Components/Header/Header'
 
 function App() {
 
@@ -6,7 +9,11 @@ function App() {
   return (
     <>
       
-      <h1 className='text-2xl font-bold'>Simple Website With React</h1>
+      <Header></Header>
+      <div className='mt-5 flex justify-between w-11/12 mx-auto'>
+        <Allproducts></Allproducts>
+        <CartContainer></CartContainer>
+      </div>
     </>
   )
 }

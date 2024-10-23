@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1555685812-51e15e5e6f73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGJpa2V8ZW58MHx8fHwxNjc5NzY0Mjg4&ixlib=rb-1.2.1&q=80&w=400",
+      "price": 29.99,
+      "name": "Sporty Bike",
+      "model": "SB1000",
+      "sold": 150
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1502939252905-3bfa488f9e61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fG1vdW50YWluJTIwYmlrZXxlbnwwfHx8fDE2Nzk3NjQyOTU&ixlib=rb-1.2.1&q=80&w=400",
+      "price": 49.99,
+      "name": "Mountain Explorer",
+      "model": "ME200",
+      "sold": 75
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1579405301762-37c2f6f28ec4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDcyfHxiaWtlJTIwcmlkZXxlbnwwfHx8fDE2Nzk3NjQyNzU&ixlib=rb-1.2.1&q=80&w=400",
+      "price": 39.99,
+      "name": "Road Racer",
+      "model": "RR300",
+      "sold": 200
+    },
+    {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1501561749602-1b915b0d9b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDczfHxlY2xlY3RyaWMlMjBiaWtlfGVufDB8fHx8MTY3OTc2NDI5Mg&ixlib=rb-1.2.1&q=80&w=400",
+      "price": 59.99,
+      "name": "Urban Cruiser",
+      "model": "UC400",
+      "sold": 120
+    },
+    {
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1574027087132-c7b1707d8b7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDIwfHxraWRzJTIwYmlrZXxlbnwwfHx8fDE2Nzk3NjQyOTY&ixlib=rb-1.2.1&q=80&w=400",
+      "price": 19.99,
+      "name": "Kids Bike",
+      "model": "KB500",
+      "sold": 90
+    },
+    {
+      "id": 6,
+      "image": "https://images.unsplash.com/photo-1554510594-1d0f639bcaeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE4fHxob3ZlcmNhcmUlMjBza290ZXJ8ZW58MHx8fHwxNjc5NzY0MzA4&ixlib=rb-1.2.1&q=80&w=400",
+      "price": 89.99,
+      "name": "Electric Scooter",
+      "model": "ES600",
+      "sold": 45
+    },
+    {
+      "id": 7,
+      "image": "https://images.unsplash.com/photo-1615154189998-78d4a7d56796?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDYyfHxoeWJyaWQlMjBiaWtlfGVufDB8fHx8MTY3OTc2NDM3OQ&ixlib=rb-1.2.1&q=80&w=400",
+      "price": 99.99,
+      "name": "Hybrid Bike",
+      "model": "HB700",
+      "sold": 30
+    },
+    {
+      "id": 8,
+      "image": "https://images.unsplash.com/photo-1625886445480-e6b6d21c80b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDMyfHxlY29tbXV0ZXIlMjBiaWtlfGVufDB8fHx8MTY3OTc2NDM4NQ&ixlib=rb-1.2.1&q=80&w=400",
+      "price": 24.99,
+      "name": "Commuter Bike",
+      "model": "CB800",
+      "sold": 65
+    },
+    {
+      "id": 9,
+      "image": "https://images.unsplash.com/photo-1556810957-70b26be36279?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE2fHxmb2xkYWJsZSUyMGJpa2V8ZW58MHx8fHwxNjc5NzY0Mzg0&ixlib=rb-1.2.1&q=80&w=400",
+      "price": 79.99,
+      "name": "Foldable Bike",
+      "model": "FB900",
+      "sold": 25
+    },
+    {
+      "id": 10,
+      "image": "https://images.unsplash.com/photo-1567890449039-fdb9538a506c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDI4fHxhZHZlbnR1cmUlMjBiaWtlfGVufDB8fHx8MTY3OTc2NDM5NA&ixlib=rb-1.2.1&q=80&w=400",
+      "price": 34.99,
+      "name": "Adventure Bike",
+      "model": "AB1000",
+      "sold": 110
+    }
+  ]
+  
