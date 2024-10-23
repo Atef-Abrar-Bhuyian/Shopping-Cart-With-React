@@ -7,6 +7,12 @@ import Header from './Components/Header/Header'
 function App() {
   const [carts, setCarts] =useState([]);
 
+  const [price, setPrice] = useState(0);
+
+  const handleIncreasePrice = (pr) =>{
+    setPrice(price+pr);
+  }
+
   const handleCartsContainer = (product, id) => {
     const isExists = carts.find((p) => p.id == id);
 
@@ -16,13 +22,15 @@ function App() {
     else{
       const newCarts = [...carts, product];
     setCarts(newCarts);
+    handleIncreasePrice(product.price);
     }
+
   }
 
   return (
     <>
       
-      <Header carts={carts} ></Header>
+      <Header price={price} carts={carts} ></Header>
       <div className='mt-5 md:flex justify-between w-11/12 mx-auto'>
 
         <Allproducts handleCartsContainer={handleCartsContainer} ></Allproducts>

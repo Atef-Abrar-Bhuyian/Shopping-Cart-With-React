@@ -2,7 +2,7 @@
     {
       "id": 1,
       "image": "https://i.ibb.co.com/1dDXfrc/sumit-saharkar-a-U-Ymsu0-Cg8-unsplash.jpg",
-      "price": 29.99,
+      "price": 299.9,
       "name": "Sporty Bike",
       "model": "SB1000",
       "sold": 150,
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "image": "https://i.ibb.co.com/1dDXfrc/sumit-saharkar-a-U-Ymsu0-Cg8-unsplash.jpg",
-      "price": 49.99,
+      "price": 499.9,
       "name": "Mountain Explorer",
       "model": "ME200",
       "sold": 75,
@@ -20,7 +20,7 @@
     {
       "id": 3,
       "image": "https://i.ibb.co.com/1dDXfrc/sumit-saharkar-a-U-Ymsu0-Cg8-unsplash.jpg",
-      "price": 39.99,
+      "price": 399.9,
       "name": "Road Racer",
       "model": "RR300",
       "sold": 200,
@@ -29,7 +29,7 @@
     {
       "id": 4,
       "image": "https://i.ibb.co.com/1dDXfrc/sumit-saharkar-a-U-Ymsu0-Cg8-unsplash.jpg",
-      "price": 59.99,
+      "price": 599.9,
       "name": "Urban Cruiser",
       "model": "UC400",
       "sold": 120,
@@ -38,7 +38,7 @@
     {
       "id": 5,
       "image": "https://i.ibb.co.com/1dDXfrc/sumit-saharkar-a-U-Ymsu0-Cg8-unsplash.jpg",
-      "price": 19.99,
+      "price": 199.9,
       "name": "Kids Bike",
       "model": "KB500",
       "sold": 90,
@@ -47,7 +47,7 @@
     {
       "id": 6,
       "image": "https://i.ibb.co.com/1dDXfrc/sumit-saharkar-a-U-Ymsu0-Cg8-unsplash.jpg",
-      "price": 89.99,
+      "price": 499.9,
       "name": "Electric Scooter",
       "model": "ES600",
       "sold": 45,
@@ -56,7 +56,7 @@
     {
       "id": 7,
       "image": "https://i.ibb.co.com/1dDXfrc/sumit-saharkar-a-U-Ymsu0-Cg8-unsplash.jpg",
-      "price": 99.99,
+      "price": 199.9,
       "name": "Hybrid Bike",
       "model": "HB700",
       "sold": 30,
@@ -65,7 +65,7 @@
     {
       "id": 8,
       "image": "https://i.ibb.co.com/1dDXfrc/sumit-saharkar-a-U-Ymsu0-Cg8-unsplash.jpg",
-      "price": 24.99,
+      "price": 249.9,
       "name": "Commuter Bike",
       "model": "CB800",
       "sold": 65,
@@ -74,7 +74,7 @@
     {
       "id": 9,
       "image": "https://i.ibb.co.com/1dDXfrc/sumit-saharkar-a-U-Ymsu0-Cg8-unsplash.jpg",
-      "price": 79.99,
+      "price": 159.9,
       "name": "Foldable Bike",
       "model": "FB900",
       "sold": 25,
@@ -83,7 +83,7 @@
     {
       "id": 10,
       "image": "https://i.ibb.co.com/1dDXfrc/sumit-saharkar-a-U-Ymsu0-Cg8-unsplash.jpg",
-      "price": 34.99,
+      "price": 349.9,
       "name": "Adventure Bike",
       "model": "AB1000",
       "sold": 110,
