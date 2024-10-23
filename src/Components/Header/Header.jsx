@@ -1,16 +1,21 @@
 import { FaSearch,FaCartPlus   } from 'react-icons/fa';
-
-const Header = () => {
+import PropTypes from 'prop-types'
+const Header = ({carts}) => {
     return (
         <div className='w-11/12 mx-auto flex items-center justify-between mt-4'>
             <h1 className='text-3xl font-bold'>Logo</h1>
             <div className='flex gap-6 items-center text-xl'>
-                <FaSearch></FaSearch>
-                <FaCartPlus></FaCartPlus>
+                <p><FaSearch></FaSearch></p>
+                <p className='flex items-center gap-2'><FaCartPlus></FaCartPlus>{carts.length}</p>
                 <p>$500</p>
             </div>
         </div>
     );
 };
+
+
+Header.propTypes ={
+    carts: PropTypes.array,
+}
 
 export default Header;

@@ -2,7 +2,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import PropTypes from 'prop-types'
 
 const Singleproduct = ({ product,handleCartsContainer }) => {
-  const {image, price, name, model, sold, description } = product;
+  const {id,image, price, name, model, sold, description } = product;
 
 
 
@@ -15,7 +15,7 @@ const Singleproduct = ({ product,handleCartsContainer }) => {
       <h4><span className="font-semibold">Model</span>: {model}</h4>
       <p><span className="italic font-semibold">Price</span>: {price}$ </p>
         <p><span className="font-semibold">Sold</span>: {sold} </p>
-      <button onClick={()=>handleCartsContainer(product)} className="flex items-center gap-4 border-2 p-3 justify-center font-bold text-lg rounded-xl">
+      <button onClick={()=>handleCartsContainer(product,id)} className="flex items-center gap-4 border-2 p-3 justify-center font-bold text-lg rounded-xl">
         Add to cart <FaShoppingCart></FaShoppingCart>
       </button>
       </div>
